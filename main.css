@@ -4,20 +4,40 @@ html {
 
 body {
     background-color: #ff5a5f;
+    font-family: "Bitter";
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+a:focus {
+    text-decoration:none;
 }
 
 .me {
     width:225px;
+    height:225px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.company {
+    color:#F6DEAE;
 }
 
 .landing {
     text-align:center;
     margin-top:100px; 
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .items {
-    background-color:#7696DB;
+    background-color:#EA5455;
     color: #fff;
     text-align: center;
 }
@@ -25,14 +45,17 @@ body {
 .items:hover {
     background-color:#fff;
     color:#000;
-    transition: 1s background-color;
+    transition: 0.5s background-color;
 }
 
 h1.titler {
     color: #fff;
-    font-family: "Montserrat";
-    margin-top:15px;
+    margin-top:35px;
     font-size:40px;
 }
 
-.classWithPad { margin:10px; padding:10px; }
+.classWithPad { 
+    margin:10px; 
+    padding:50px; 
+    
+}
