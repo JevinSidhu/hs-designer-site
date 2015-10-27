@@ -74,7 +74,7 @@ h1.titler {
 
 .large-bg {
     text-align:center;
-    background: linear-gradient( rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80) ), url("bg.jpeg");
+    background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url("bg.jpeg");
     background-repeat: no-repeat;
     background-size:cover;
     max-width:1500px;
@@ -82,26 +82,29 @@ h1.titler {
     margin-bottom:50px;
 }
 
-.header {
+.heading {
     color:#fff;
     font-size:75px;
     font-weight:200;
-    margin-top:260px;
+    margin-top:270px;
    
 }
 
 .subtitle {
-    color: rgba(255,255,255,0.75);
-    font-size:20px;
+    color:rgba(255,255,255,0.60);
+    font-size:27px;
     font-weight:300;
 }
 
 .text {
+    font-family:"PT Sans";
+    color:rgb(77, 77, 77);
+    font-size:18px;
+    line-height:27px;
     max-width:650px;
-    line-height:25px;
     margin-left:auto;
     margin-right:auto;
-    font-size:15px;
+    margin-bottom:25px;
 }
 
 .circle {
@@ -120,11 +123,16 @@ h1.titler {
     transition:0.5s background-color;
 }
 
-
 .fa {
     text-align:center;
     margin-top:27%;
     font-size:20px;
+}
+
+
+.article-img{
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 @media screen and (max-width:700px) {
