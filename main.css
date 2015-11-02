@@ -4,14 +4,10 @@ html {
 }
 
 body {
-    background-color: #ff5a5f;
+    background-color: #2D4059;
     font-family: "Bitter";
 }
 
-.body-what {
-    background-color:#fff;
-    font-family:"Lato";
-}
 
 a {
     text-decoration:none;
@@ -33,7 +29,7 @@ a:focus {
 }
 
 .company {
-    color:#F6DEAE;
+    color:#FFD460;
 }
 
 .company:hover {
@@ -52,6 +48,8 @@ a:focus {
     background-color:#EA5455;
     color: #fff;
     text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 .items:hover {
@@ -60,106 +58,95 @@ a:focus {
     transition: 0.5s background-color;
 }
 
-h1.titler {
+.titler {
     color: #fff;
     margin-top:35px;
     font-size:40px;
 }
 
-.classWithPad { 
-    margin:10px; 
-    padding:50px; 
-    
-}
 
-.large-bg {
+/* career.html */ 
+
+.body-career {
+    background-color:#f9f9fa;
     text-align:center;
-    background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url("bg.jpeg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    min-height:500px;
-    margin-bottom:50px;
 }
 
-.heading {
+.career-landing {
+    margin-top:250px;
+    margin-bottom:350px;
+}
+
+#main-header {
+    font-size:50px;
+}
+
+.sub-header {
+    font-size:25px;
+    color:rgb(102, 102, 102);;
+}
+
+.ui-section {
+    padding: 100px 100px;
     color:#fff;
-    font-size:75px;
-    font-weight:200;
-    margin-top:270px;
-   
+    text-align:left;
 }
 
-.subtitle {
-    color:rgba(255,255,255,0.60);
+.ui-what {
+    background-color:#353941;
+}
+
+.ui-jobs {
+    background-color:#364968;
+}
+
+.ui-heroes {
+    background-color:#353941;
+}
+
+.section-header {
+    font-weight:500;
     font-size:27px;
+}
+
+.section-text {
+    font-family: "Source Sans Pro";
     font-weight:300;
+    font-size:17px;
+    line-height:1.5;
 }
 
-.text {
-    font-family:"PT Sans";
-    color:rgb(77, 77, 77);
-    font-size:18px;
-    line-height:27px;
-    max-width:650px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:25px;
+.section-img {
+    margin-top:50px;
 }
 
-.circle {
-	margin-top:25px;
-	margin-left:25px;
-	border-radius: 50%;
-	background:#fff;
-	color:#000;
-	width:50px;
-	height:50px; 
+li {
+    font-family: "Source Sans Pro";
+    font-weight:200;
+    font-size:19px;
 }
 
-.circle:hover {
-    background-color:#ff5a5f;
-    color:#fff;
-    transition:0.5s background-color;
+.center {
+    text-align: center;
 }
 
-.fa {
+.hero-img {
+    border-radius:50%;
+}
+
+.hero-title {
     text-align:center;
-    margin-top:27%;
     font-size:20px;
 }
 
+.hero-text {
+    text-align:center;
+    font-family: "Source Sans Pro";
+    font-size:16px;
+    font-weight:300;
 
-.article-img{
-    margin-top:50px;
-    margin-bottom:50px;
 }
 
-
-/* Media Queries */
-@media screen and (max-width:700px) {
-    .text {
-        max-width:450px;
-    }
-    
-}
-
-@media screen and (max-width: 600px) {
-    .text {
-        max-width:350px;
-    }
-    
-}
-
-@media screen and (max-width:555px) {
-    .header{
-        margin-top:185px;
-    }
-    
-}
-
-@media screen and (max-width:480px) {
-    .text {
-        max-width:300px;
-    }
-    
+.navbar-nav {
+    margin-right:10px;
 }
