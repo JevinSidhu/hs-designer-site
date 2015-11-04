@@ -13,30 +13,30 @@
         <link rel="stylesheet" href="main.css">
         <link href='https://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700' rel='stylesheet' type='text/css'>
-   
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>    
     </head>
     
-    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a href="index.html" class="navbar-brand">Back</a>
-    </div>
-    <!-- Collection of nav links and other content for toggling -->
-    <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
-        <ul class="nav navbar-nav">
-            <li> <a href="#what-ui">What is UI?</a></li>
-            <li><a href="#what-ui-designer">UI Designer?</a></li>
-            <li><a href="#ui-examples">Examples</a></li>
-            <li><a href="#heroes">Heroes</a></li>
-        </ul>
-    </div>
-</nav>
+        <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">Back</a>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+                <li> <a data-scroll href="#what-ui">What is UI?</a></li>
+                <li><a data-scroll href="#what-ui-designer">UI Designer?</a></li>
+                <li><a data-scroll href="#examples">Examples</a></li>
+                <li><a data-scroll href="#heroes">Heroes</a></li>
+            </ul>
+        </div>
+    </nav>
 
     
     <body class="body-career">
@@ -47,28 +47,29 @@
                     <h4 class="sub-header"> the art of interaction design</h4>
                 </div>
                 <div class="col-md-12 ui-section ui-what"> 
-                    <a name="what-ui"> </a>    
+                    <span id="what-ui"></span>
                     <div class="col-md-8 col-md-offset-2"> 
-                        <h2 class="section-header"> What is User Interface? </h2>
-                        <p class="section-text"> Abbreviated UI, the junction between a user and a computer program. An interface is a set of commands or menus through which a user communicates with a program. A command-driven interface is one in which you enter commands. A menu-driven interface is one in which you select command choices from various menus displayed on the screen.
-The user interface is one of the most important parts of sany program because it determines how easily you can make the program do what you want. A powerful program with a poorly designed user interface has little value. Graphical user interfaces (GUIs) that use windows, icons, and pop-up menus have become standard on personal computers. </p>
+                        <h2 class="section-header"> What is User Interface? <a class="bib" href="bib.html">("What Is User Interface?")</a> </h2>
+                        <p class="section-text"> Abbreviated UI, user interface is <span class="bold green"> the interaction between a user and a computer program.</span> An interface is a set of commands or menus through which a user communicates with a program. A command-driven interface is one in which you enter commands. A menu-driven interface is one in which you select command choices from various menus displayed on the screen.
+
+                        The user interface is one of the most important parts of a program because it determines how easily you can make the program do what you want. A powerful program with a poorly designed user interface has little value. Graphical user interfaces (GUIs) that use windows, icons, and pop-up menus are standard on computers nowadays. A decade and a bit ago, this was not the case. </p>
                     </div>
                     
                     <div class="col-md-6"> 
-                        <img class="section-img img-responsive" src="https://images.unsplash.com/3/doctype-hi-res.jpg?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450">
+                        <img class="section-img img-responsive" src="http://i.imgur.com/ZH0BRHp.jpg?1">
                     </div>
                     
                      <div class="col-md-6"> 
-                        <img class="section-img img-responsive" src="https://images.unsplash.com/photo-1421757381940-5d269570b21c?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450">
+                        <img class="section-img img-responsive" src="http://i.imgur.com/QD5NNOA.jpg?1">
                     </div>
 
                 </div>
                 
                 <div class="col-md-12 ui-section ui-jobs"> 
-                <a name="what-ui-designer"> </a>    
+                <span id="what-ui-designer"></span>
                     <div class="col-md-8 col-md-offset-2">           
-                        <h2 class="section-header"> What is an UI Designer? </h2>
-                        <p class="section-text"> The goal of a web user interface designer is make websites easy to learn. A brand new user that lands on your website with at least one goal in mind is going to want to navigate your site like they’ve been going there for years. This is easy to do if you use a good user interface. 
+                        <h2 class="section-header"> What is an UI Designer? <a class="bib" href="bib.html">("What Is an UI Designer?")</a> </h2>
+                        <p class="section-text"> <span class="bold green">The goal of a web user interface designer is make websites easy to learn.</span> A brand new user that lands on your website with at least one goal in mind is going to want to navigate your site like they have been going there for years. This is easy to do if you use a good user interface. 
                         <br>
                         <br>
 
@@ -108,10 +109,10 @@ The user interface is one of the most important parts of sany program because it
                 </div> 
                 
                  <div class="col-md-12 ui-section ui-heroes"> 
-                <a name="ui-examples"> </a>    
+                <span id="examples"></span>
                     <div class="col-md-8 col-md-offset-2"> 
                         <h2 class="section-header"> Example - Google Play Store </h2>
-                        <p class="section-text"> Google’s Play Store has thousands of apps and free/paid downloadable software that is used across numerous devices. Organizing a large quantity of apps like this should be a difficult challenge, but Google made it so easy to use that there’s no problem finding anything you need in just 1-2 clicks. Their design is simple, easy-to-use, and plain attractive. The screen is so clean, partially due to the navigation menu in the top left-hand corner. The nav bar doesn’t go across the top, instead they made use of a lack of sidebars and used that space to cleanly organize their categories. </p>
+                        <p class="section-text"> Google’s Play Store has thousands of apps and free/paid downloadable software that is used across numerous devices. Organizing a large quantity of apps like this should be a difficult challenge, but <span class="bold green">Google made it so easy to use that there’s no problem finding anything you need in just 1-2 clicks.</span> Their design is simple, easy-to-use, and plain attractive. The screen is so clean, partially due to the navigation menu in the top left-hand corner. The nav bar doesn’t go across the top, instead they made use of a lack of sidebars and used that space to cleanly organize their categories. </p>
                     </div>
                     
                     <div class="col-md-6 col-md-offset-3"> 
@@ -122,26 +123,25 @@ The user interface is one of the most important parts of sany program because it
                 </div>
                 
                 <div class="col-md-12 ui-section ui-jobs"> 
-                <a name="heroes"> </a>    
-                    <a name="what-ui"> </a>    
+                <span id="heroes"></span>
                     <div class="col-md-8 col-md-offset-2"> 
                         <h2 class="section-header"> Heroes</h2>
                     </div>
                     
                     <div class="col-md-8 col-md-offset-2">
                         <div class="col-md-4"> 
-                            <img class="section-img hero-img img-responsive" src="https://pbs.twimg.com/profile_images/1675782810/Mike_400x400.jpg">
+                            <a target="_blank" href="https://twitter.com/mike_matas"> <img class="section-img hero-img img-responsive center-block" src="https://pbs.twimg.com/profile_images/1675782810/Mike_400x400.jpg"> </a>
                             <h1 class="hero-title">Mike Matas</h1>
                             <p class="hero-text">Currently works for Facebook (most notably did the new photo view) and before that, Apple. He did most of the original apps for the first iPad. </p>
                         </div>
                         
                         <div class="col-md-4"> 
-                            <img class="section-img hero-img img-responsive" src="http://sfpc.io/static/img/people/bret_victor.jpg">
+                            <a target="_blank" href="https://twitter.com/worrydream"> <img class="section-img hero-img img-responsive center-block" src="http://sfpc.io/static/img/people/bret_victor.jpg"> </a>
                             <h1 class="hero-title">Bret Victor</h1>
                             <p class="hero-text"> Worked for Apple. Delivers great keynote speeches that are all worth checking out. Has great and accurate visions for the future of the web.</p>
                         </div>
                         <div class="col-md-4"> 
-                            <img class="section-img hero-img img-responsive" src="https://pbs.twimg.com/profile_images/1281659696/IMG_2782_nfbw.jpg">
+                           <a target="_blank" href="https://twitter.com/feltron"> <img class="section-img hero-img img-responsive center-block" src="https://pbs.twimg.com/profile_images/1281659696/IMG_2782_nfbw.jpg"> </a>
                             <h1 class="hero-title">Nicholas Felton</h1>
                             <p class="hero-text">Most known for his Fletron reports. Currently works for Facebook and is credited to the one that created the timeline.</p>
                         </div> 
@@ -154,9 +154,11 @@ The user interface is one of the most important parts of sany program because it
         
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-
-    
+    <script src="smooth-scroll.min.js"></script>
     <scipt href="script.js"> </scipt>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <script>
+        smoothScroll.init();
+    </script>
     </body>
 </html>

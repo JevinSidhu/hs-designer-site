@@ -93,11 +93,11 @@ a:focus {
 }
 
 .ui-what {
-    background-color:#353941;
+    background-color:#303242;
 }
 
 .ui-jobs {
-    background-color:#364968;
+    background-color:#394359;
 }
 
 .ui-heroes {
@@ -110,10 +110,36 @@ a:focus {
 }
 
 .section-text {
-    font-family: "Source Sans Pro";
+    font-family: "Open Sans";
     font-weight:300;
-    font-size:17px;
+    font-size:18px;
     line-height:1.5;
+}
+
+.special-text {
+    margin-top:25px;
+    background-color:#fff;
+    text-align: center;
+    display:inline-block;
+    color:#000;
+    width:200px;
+    padding:10px 10px;
+}
+
+.special-text:hover {
+    background-color:#394359;
+    color:#fff;
+    transition: 0.5s background-color ease;
+}
+
+.versus {
+    background-color:#EA5455;
+    color:#fff;
+    width:150px;
+}
+
+.versus:hover {
+    background-color:#EA5455;
 }
 
 .section-img {
@@ -121,9 +147,9 @@ a:focus {
 }
 
 li {
-    font-family: "Source Sans Pro";
-    font-weight:200;
-    font-size:19px;
+    font-family: "Open Sans";
+    font-weight:300;
+    font-size:18px;
 }
 
 .center {
@@ -132,6 +158,8 @@ li {
 
 .hero-img {
     border-radius:50%;
+    width:220px;
+    height:220px;
 }
 
 .hero-title {
@@ -141,12 +169,85 @@ li {
 
 .hero-text {
     text-align:center;
-    font-family: "Source Sans Pro";
-    font-size:16px;
+    font-family: "Open Sans";
+    font-size:15px;
     font-weight:300;
 
 }
 
-.navbar-nav {
+.nav {
     margin-right:10px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-family: "Open Sans";
+    font-weight:300;
+}
+
+.bold {
+    font-weight:600;
+    color:#fff;
+}
+
+.link {
+    font-weight:600;
+    color:#FFD460;
+}
+
+.link:hover {
+    color:#fff;
+}
+
+.courses {
+    margin-bottom:50px;
+}
+
+.green {
+    color:#79F8BB;
+}
+
+.bib {
+    color:#EECCB4;
+    font-size:15px;
+}
+
+.bib:hover {
+    color:#fff;
+}
+
+.bib-header {
+    text-align:center;
+    margin-top:150px;
+    margin-bottom:-30px;
+    font-family: "Open Sans";
+    color:#fff;
+    font-size:35px;
+    font-weight:600;}
+
+.bib-text {
+    font-family: "Open Sans";
+    color:#fff;
+    font-size:18px;
+    font-weight:300;
+    line-height:1.5;
+}
+
+@media screen and (max-width: 480px) {
+.section-header {
+   width:380px;
+   margin-left:-100px;
+}
+
+.section-text {
+   width:350px;
+   margin-left:-100px;
+}
+
+.hero-img {
+    width:125px;
+    height:125px;
+}
+
+
 }
