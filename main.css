@@ -244,7 +244,7 @@ li {
    margin-left:-100px;
 }
 
-li {
+.points {
     margin-left:-100px;
 }
 
@@ -257,5 +257,6 @@ li {
     margin-left:-100px;
     width:350px;
 }
+
 
 }
