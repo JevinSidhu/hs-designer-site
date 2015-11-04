@@ -244,10 +244,18 @@ li {
    margin-left:-100px;
 }
 
+li {
+    margin-left:-100px;
+}
+
 .hero-img {
     width:125px;
     height:125px;
 }
 
+.courses h3 {
+    margin-left:-100px;
+    width:350px;
+}
 
 }
